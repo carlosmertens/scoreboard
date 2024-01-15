@@ -1,5 +1,5 @@
 import Scoreboard from './components/Scoreboard';
-import { ScoreContextProvider } from './components/contexts/ScoreContext';
+import { ScoreContextProvider } from './contexts/ScoreContext';
 
 function App() {
   return (
