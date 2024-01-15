@@ -1,10 +1,13 @@
 import Scoreboard from './components/Scoreboard';
+import { ScoreContextProvider } from './components/contexts/ScoreContext';
 
 function App() {
   return (
-    <div className='App'>
-      <Scoreboard />
-    </div>
+    <ScoreContextProvider>
+      <div className='App'>
+        <Scoreboard />
+      </div>
+    </ScoreContextProvider>
   );
 }
 
